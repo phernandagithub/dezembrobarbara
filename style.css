@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    display: flex;  
+    font-size: xx-large;        
+    gap: 10px;              
+    margin-top: 20px;       
+    margin-left: 82%;
+  }
+
+#aumentar, #diminuir {
+    width: 100px;               
+    padding: 10px;              
+    border-radius: 50%;         
+    border: none;               
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: white;               
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);         
+    cursor: pointer;           
+  }  
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #e78c8c ;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+h2 {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.section {
+    background-color: #e78c8c;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.section-content { 
+    background-color: #e78c8c; 
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+.botao-alerta { 
+    display: inline-block; 
+    padding: 10px 20px; 
+    margin-top: 10px; 
+    background-color: #db5555; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    text-align: center; 
+    text-decoration: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    box-shadow: 0 2px 4px rgba(0,0,0,10);
+    animation: blinking 2s infinite; 
+} 
+    
+.botao-alerta:hover { 
+    background-color: #a84337;
+
+}    
+
+@keyframes blinking { 
+    50% {
+    opacity: 0.2 } 
+  
+
+} 
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #a3a2a2;
+    border-top: 1px solid #ccc;
+}
